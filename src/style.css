@@ -5,19 +5,16 @@ body {
 
 .inside-box {
   background-color: rgb(255, 165, 0);
-  border: 1px solid #e95d49;
 }
 
 .outside-box {
   background-color: rgb(50, 141, 191);
   width: 350px;
   margin: 20px 0 40px 20px;
-  border: 1px solid #e95d49;
 }
 
 .text {
   background-color: rgb(221, 221, 211);
-  border: 1px solid #e95d49;
   margin: 0;
 }
 
@@ -25,6 +22,7 @@ body {
 .inside-box,
 .outside-box {
   padding: 10px;
+  border: 1px solid #e95d49;
 }
 
 * {
